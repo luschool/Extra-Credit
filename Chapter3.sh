@@ -18,8 +18,8 @@ ls -l /sys/block >> ~/Desktop/log
 
 echo udevadm info --query=all --name=/dev/sda shows all info on the /dev/sda device >> ~/Desktop/log
 echo However I just want to use the --query=symlink flag to see the symbolic links >> ~/Desktop/log
-edevadm info --query=symlink --name=/dev/sda >> ~/Desktop/log
-edevadm info --query=symlink --name=/dev/sr0 >> ~/Desktop/log
+udevadm info --query=symlink --name=/dev/sda >> ~/Desktop/log
+udevadm info --query=symlink --name=/dev/sr0 >> ~/Desktop/log
 
 #Since recent commands and echos were redirected and appended to the log file in order of execution
 #When I call the file with the cat command it will appear as if everything also happend in the terminal
