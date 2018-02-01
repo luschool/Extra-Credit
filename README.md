@@ -1,4 +1,4 @@
-# SchoolLab
+# schlabs
 Labs for class
 
 #Git Virtual Box Test
