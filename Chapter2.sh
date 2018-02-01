@@ -5,11 +5,14 @@ echo Hello this is my first Script.
 
 echo It should leave you with a compressed output file of an ls -la command of your home directory
 
+#First lets navigate to the home directory
+cd 
+
 #Make directory
 mkdir test
 
 #Creates a new file named results while outputting the result of the command ls -la
-ls -la > test/results
+ls -la > test/output
 
 #moving directory
 cd test
