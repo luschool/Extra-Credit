@@ -1,44 +1,30 @@
 #!/bin/bash
-#This script will create a directory, a file, and allow you to add contents to a file. Feedback greatly appreciated.
+#Week 2 Lab - Lucas Merriott
 
-#Shows where you are currently located (should be home/user)
-pwd
+echo Hello this is my first Script.
 
-#lists contents of directory
-ls -F
+echo It should leave you with a compressed output file of an ls -la command of your home directory
 
-#moves you into Documents
-cd /home/user/Documents
+#Make directory
+mkdir test
 
-#creates a file
-touch Sample1
+#Creates a new file named results while outputting the result of the command ls -la
+ls -la > test/results
 
-#double check to see if file was created
-ls -F
+#moving directory
+cd test
 
-#move back to home directory
+#compressing the file
+gzip output
+
+#moving file to desktop
+mv output.gz ~/Desktop
+
+#returning to home directory
 cd
 
-#create new directory
-mkdir Week2
+#removing the directory created above
+rmdir test/
 
-#move to Documents again
-cd /home/user/Documents 
+echo Script Complete!
 
-#move file to Week2
-mv Sample1 /home/user/week2
-
-#change directory to Week2
-cd /home/user/week2
-
-#confirm file was moved
-ls -F
-
-#create joke inside file
-tee -a Sample1
-
-#enter in joke, once joke has been entered, hit CTRL C to exit
-Joke1: I love the F5 key, it's just so refreshing!
-
-#confirm joke was saved into file
-cat Sample1
