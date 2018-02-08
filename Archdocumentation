@@ -77,9 +77,10 @@ network access when you reach the ifplugd step.
         3 - "systemctl start netctl-ifplugd@eth0.service"
         4 - "systemctl enable netctl-ifplugd@eth0.service"
         
-        My problem was eth1 was the ethernet port that was actually plugged in. There is probably multiple ways to fix this but what I did was just followed steps 1 through 4 again but changed the commands to reflect eth1
+        My problem was eth1 was the ethernet port that was actually plugged in.
+        There is probably multiple ways to fix this but what I did was just
+        followed steps 1 through 4 again but changed the commands to reflect eth1
         1 - "cp /etc/netctl/examples/ethernet-dhcp /etc/netctl/eth1-arch_usb"
-        "cp /etc/netctl/examples/ethernet-dhcp /etc/netctl/eth1-arch_usb"
         2 - "nano /etc/netctl/eth1-arch_usb" Edit and ensure interface is named (Interface=eth1):
         3 - "systemctl start netctl-ifplugd@eth1.service"
         4 - "systemctl enable netctl-ifplugd@eth1.service"
