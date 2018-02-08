@@ -16,16 +16,16 @@ Once both drives were ready I restarted my computer and using the boot menu I
 booted into USB 1 while using my laptop to help guide my way. 
 
 Arch Linux has a ton of great information on their wiki along with their own
-Installation guide. However it wasnt as clear as I would of liked it and I wanted
-a way to be able to boot either with either partition scheme so I can boot on
-hopefully any computer I want. 
+Installation guide. However it wasnt as clear as I would of liked it to be. I also 
+wanted to be able to boot with both partition scheme options which this next guide
+shows you how to do. 
 
 
 The guide I followed the most was by C.Magyar on valleycat -
 
     http://valleycat.org/linux/arch-usb.html?i=2
 
-This guide is nearly as clear cut as you can get in my opinion. Make sure you
+This guide is almost as clear cut as you can get in my opinion. Make sure you
 double check every command twice and read throughly if you're unsure. However I
 still used Archs Wiki and other resources if I was ever unsure or having a
 problem. 
@@ -40,7 +40,7 @@ I want to document any issues or tips I have in the order I encountered them.
 * Use a wired connection if at all possible. Trying to connect over wireless from
 the start was a bit problematic for me and others it seems.
 
-* Make sure you are 100% sure the name of USB 2 by using the commands "lkblk" and
+* Make sure you are 100% sure the name of USB 2 by using the commands "lsblk" and
 "fdisk -l" Failure to do this could result in you erasing data on the wrong drive*
 
   # # Partition Information https://wiki.archlinux.org/index.php/Partitioning # # 
@@ -62,6 +62,9 @@ based on something I read on another article.
         the file it never registered the change and my download took forever. 
         
         Later I found the command " pacman -Syyu " which should refresh it. 
+        After you edit the mirrors and refresh it with the above command
+        you should be getting much better speeds when you run the 
+        "pacstrap /mnt base" command.
         
 * TAKE NOTE BEFORE YOU INSTALL THE BASE PACKAGES 
 
