@@ -1,7 +1,2 @@
-# schlabs
-Labs for class
-
-#Git Virtual Box Test
-
-#Edited Repository name and updated on local machine. 
-
+# Trials
+One location for documentation dumps and fun trials.
