@@ -26,7 +26,7 @@ wanted to be able to boot with both partition scheme options which this next gui
 shows you how to do. 
 
 
-The guide I followed the most was by C.Magyar on valleycat -
+**The guide I followed the most was by C.Magyar on valleycat -**
 
     http://valleycat.org/linux/arch-usb.html?i=2
 
@@ -40,7 +40,7 @@ problem.
     https://wiki.archlinux.org/index.php/Installation_guide
     https://www.addictivetips.com/ubuntu-linux-tips/how-to-install-arch-linux/
 
-I want to document any issues or tips I have in the order I encountered them.
+**I want to document any issues or tips I have in the order I encountered them.**
 
 * Use a wired connection if at all possible. Trying to connect over wireless from
 the start was a bit problematic for me and others it seems.
@@ -48,12 +48,12 @@ the start was a bit problematic for me and others it seems.
 * Make sure you are 100% sure the name of USB 2 by using the commands "lsblk" and
 "fdisk -l" Failure to do this could result in you erasing data on the wrong drive*
 
-  # # Partition Information https://wiki.archlinux.org/index.php/Partitioning # # 
+	Partition Information https://wiki.archlinux.org/index.php/Partitioning 
  
 * The only patition change I made from the guide was to make partition 2 550MB
 based on something I read on another article.
 
-* TAKE NOTE BEFORE YOU INSTALL THE BASE PACKAGES 
+## TAKE NOTE BEFORE YOU INSTALL THE BASE PACKAGES 
     
         Command "pacstrap /mnt base" begins the download and installation of all
         the base packages for Arch. 
