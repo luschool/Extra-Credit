@@ -1,7 +1,8 @@
-**Arch Linux Installation Documentation**
+# **Arch Linux Installation Documentation**
 
 After some thought between Tails and Arch I have decided to install and use Arch.
-This is mearly 
+
+This is mearly a place that I documented my experiences, resources, and struggles. 
 
     Hardware - 
         2 SanDisk USB Drives
