@@ -1,4 +1,5 @@
 **Arch Linux Installation Documentation**
+
 After some thought between Tails and Arch I have decided to install and use Arch.
 This is mearly 
 
