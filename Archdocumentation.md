@@ -11,7 +11,7 @@ This is mearly a place that I documented my experiences, resources, and struggle
 	
 	Software -
 	archlinux-2018.02.01-x86_64.iso
-        Etcher.io
+	Etcher.io
 
 I used Etcher on windows to make the .iso bootable on USB 1 to begin my install
 process. I made sure to delete any partitions on USB 2 as it would soon be my
@@ -45,8 +45,8 @@ problem.
 * Use a wired connection if at all possible. Trying to connect over wireless from
 the start was a bit problematic for me and others it seems.
 
-* Make sure you are 100% sure the name of USB 2 by using the commands "lsblk" and
-"fdisk -l" Failure to do this could result in you erasing data on the wrong drive*
+* **Make sure you are 100% sure the name of USB 2 by using the commands "lsblk" and
+"fdisk -l" Failure to do this could result in you erasing data on the wrong drive**
 
 	Partition Information https://wiki.archlinux.org/index.php/Partitioning 
  
