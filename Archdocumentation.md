@@ -4,12 +4,12 @@ After some thought between Tails and Arch I have decided to install and use Arch
 
 This is mearly a place that I documented my experiences, resources, and struggles. 
 
-    Hardware - 
+	Hardware - 
         2 SanDisk USB Drives
 	1 Computer to facilitate the install
 	1 Laptop or Phone to follow any guides and answer questions with google.
-
-    Software -
+	
+	Software -
         archlinux-2018.02.01-x86_64.iso
         Etcher.io
 
@@ -71,7 +71,6 @@ based on something I read on another article.
         you should be getting much better speeds when you run the 
         "pacstrap /mnt base" command.
         
-* TAKE NOTE BEFORE YOU INSTALL THE BASE PACKAGES 
 
 
 The final issue I had was with network interface names. My home computer has 2
@@ -95,5 +94,5 @@ network access when you reach the ifplugd step.
         
         I assume you can do this as many times as needed but am unsure.
         
-I decided to use the KDE Plasma desktop enviorment and plan to also install LXDE if I happen to boot on a very old computer.
+**I decided to use the KDE Plasma desktop enviorment and plan to also install LXDE if I happen to boot on a very old computer.**
 
