@@ -5,12 +5,12 @@ After some thought between Tails and Arch I have decided to install and use Arch
 This is mearly a place that I documented my experiences, resources, and struggles. 
 
 	Hardware - 
-        2 SanDisk USB Drives
+	2 SanDisk USB Drives
 	1 Computer to facilitate the install
 	1 Laptop or Phone to follow any guides and answer questions with google.
 	
 	Software -
-        archlinux-2018.02.01-x86_64.iso
+	archlinux-2018.02.01-x86_64.iso
         Etcher.io
 
 I used Etcher on windows to make the .iso bootable on USB 1 to begin my install
