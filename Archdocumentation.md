@@ -19,8 +19,9 @@ I used Etcher on windows to make the .iso bootable on USB 1 to begin my install
 process. I made sure to delete any partitions on USB 2 as it would soon be my
 persistent bootable Arch Linux.
 
-Once both drives were ready I restarted my computer and using the boot menu I
-booted into USB 1 while using my laptop to help guide my way. 
+Once both drives were ready I restarted my computer and using the boot menu, I
+booted into USB 1 which was created above. Using your laptop or phone to follow the guide below 
+or google any problems will help tremendously. 
 
 Arch Linux has a ton of great information on their wiki along with their own
 Installation guide. However it wasnt as clear as I would of liked it to be. I also 
